@@ -1,8 +1,8 @@
 export PORT=${PORT-8080}
-export UUID=${UUID-1eb6e917774b4a84aff6b058577c60a5}
-export PATH_vless=${PATH_vless-/vless/$UUID}
-export PATH_trojan=${PATH_trojan-/trojan/$UUID}
-export PATH_vmess=${PATH_vmess-/vmess/$UUID}
+export UUID=${UUID-76e4cf9f-af8e-477f-98c2-5ae631f19430}
+export PATH_vless=${PATH_vless-/vless}
+export PATH_trojan=${PATH_trojan-/trojan}
+export PATH_vmess=${PATH_vmess-/vmess}
 export PATH_shadowsocks=${PATH_shadowsocks-/shadowsocks/$UUID}
 
 tar -xzvf page.tar.gz
